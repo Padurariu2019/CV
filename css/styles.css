@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(211, 239, 243); 
+}
+
+hr {
+    border-color: green;
+    background-color: rgb(211, 239, 243);
+    border-style: dotted none none;
+    width: 3%;  /* sau width: 100px */
+    border-width: 5px;
+}
+
+ img {
+    height: 150px;
+ }
