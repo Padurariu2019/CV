@@ -14,12 +14,41 @@ hr {
     height: 150px;
  }
 
- h1
- {
-    color: #5b19de
+ h1 {
+    font-size:20pt;
+    font-family: 'Pacifico', cursive;
+ }
+
+ h2 {
+  font-family: Times, serif;
  }
 
  h3
  {
-    color: #8a22b4
+    color: #8a22b4;
+    background-color: darkseagreen;
+    font-family: Helvetica, sans-serif;
  }
+
+ h4 {
+  text-align:center;
+  font-family: "Times New Roman", serif;
+ }
+
+ .red-text{  /*poate fi folosit la mai multe*/
+   color: red;
+ }
+
+ #main
+ {
+   color: blue;  /* e unique */
+ }
+ 
+/**
+*
+{
+  color:red;  // le face pe toate unde ai stylesheet
+}
+
+**/
+
